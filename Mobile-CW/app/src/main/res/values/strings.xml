@@ -1,0 +1,10 @@
+<resources>
+    <!-- Miao Zhang , S1402087 -->
+    <string name="app_name">Miao Zhang S1402087</string>
+    <string name="title_activity_map__test">Map</string>
+    <string name="PubTime">Fri, 16 Mar 2018 12:23:38 GMT</string>
+    <string name="Title">A9000 Forth Road Bridge - Fog</string>
+    <string name="descrition">Description</string>
+    <string name="Location">Forth Road Bridge drivers are advised to slow down and exercise caution due to fog affecting driving conditions.</string>
+    <string name="FrowardArrow">Noting</string>
+</resources>

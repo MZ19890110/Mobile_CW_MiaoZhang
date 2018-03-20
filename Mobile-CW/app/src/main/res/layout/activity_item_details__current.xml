@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Miao Zhang , S1402087 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="168dp"
+android:layout_margin="8dp"
+android:orientation="vertical"
+android:weightSum="1">
+
+
+<TextView
+android:id="@+id/txtTitle"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:gravity="center_horizontal"
+android:text="A9000 Forth Road Bridge - Fog"
+android:textSize="18sp"
+android:textStyle="bold" />
+
+<TextView
+android:id="@+id/des"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:gravity="center_horizontal"
+android:text="Description"
+android:textSize="18sp"
+android:textStyle="bold" />
+<TextView
+android:id="@+id/txtPubDate"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_below="@+id/txtTitle"
+android:layout_gravity="center"
+android:layout_marginBottom="11sp"
+android:layout_marginTop="11sp"
+android:gravity="center_horizontal"
+android:text="Sun, 11 Mar 2018 20:04:55 GMT" />
+
+<TextView
+android:id="@+id/txtDes"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:layout_below="@+id/txtPubDate"
+android:gravity="center_horizontal"
+android:text="@string/descrition"
+android:textSize="14sp"
+android:textStyle="normal" />
+
+
+</LinearLayout>
+
+<fragment
+android:id="@+id/fragment2"
+android:name="com.google.android.gms.maps.SupportMapFragment"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:layout_below="@+id/txtDes"
+android:layout_marginTop="20sp"></fragment>
+
+</LinearLayout>
